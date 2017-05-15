@@ -9,7 +9,7 @@ target 'CanadaInfo' do
 
   pod 'AFNetworking', '~> 3.0'
   pod 'Masonry'
-  pod 'ObjectMapper', '~> 2.2'
+  pod 'JSONModel'
 
   target 'CanadaInfoTests' do
     inherit! :search_paths

@@ -12,10 +12,13 @@
 		9B870F60CE30758253B985FE /* Pods_CanadaInfoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC677109DA2F265EC0821404 /* Pods_CanadaInfoUITests.framework */; };
 		C3A165F61EC9AFEC00A83A5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A165F51EC9AFEC00A83A5B /* main.m */; };
 		C3A165F91EC9AFEC00A83A5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A165F81EC9AFEC00A83A5B /* AppDelegate.m */; };
-		C3A165FC1EC9AFEC00A83A5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A165FB1EC9AFEC00A83A5B /* ViewController.m */; };
 		C3A166011EC9AFEC00A83A5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3A166001EC9AFEC00A83A5B /* Assets.xcassets */; };
 		C3A1660F1EC9AFEC00A83A5B /* CanadaInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A1660E1EC9AFEC00A83A5B /* CanadaInfoTests.m */; };
 		C3A1661A1EC9AFEC00A83A5B /* CanadaInfoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A166191EC9AFEC00A83A5B /* CanadaInfoUITests.m */; };
+		C3DBEB751EC9BEFC004F3AB7 /* CountryInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEB741EC9BEFC004F3AB7 /* CountryInformationViewController.m */; };
+		C3DBEB781EC9BF49004F3AB7 /* CountryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEB771EC9BF49004F3AB7 /* CountryInfo.m */; };
+		C3DBEB7B1EC9C04A004F3AB7 /* CountryInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEB7A1EC9C04A004F3AB7 /* CountryInfoManager.m */; };
+		C3DBEB821EC9C965004F3AB7 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEB811EC9C965004F3AB7 /* Constants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +51,6 @@
 		C3A165F51EC9AFEC00A83A5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C3A165F71EC9AFEC00A83A5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C3A165F81EC9AFEC00A83A5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C3A165FA1EC9AFEC00A83A5B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C3A165FB1EC9AFEC00A83A5B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C3A166001EC9AFEC00A83A5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3A166051EC9AFEC00A83A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3A1660A1EC9AFEC00A83A5B /* CanadaInfoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanadaInfoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +59,14 @@
 		C3A166151EC9AFEC00A83A5B /* CanadaInfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanadaInfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3A166191EC9AFEC00A83A5B /* CanadaInfoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanadaInfoUITests.m; sourceTree = "<group>"; };
 		C3A1661B1EC9AFEC00A83A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3DBEB731EC9BEFC004F3AB7 /* CountryInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryInformationViewController.h; sourceTree = "<group>"; };
+		C3DBEB741EC9BEFC004F3AB7 /* CountryInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryInformationViewController.m; sourceTree = "<group>"; };
+		C3DBEB761EC9BF49004F3AB7 /* CountryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryInfo.h; sourceTree = "<group>"; };
+		C3DBEB771EC9BF49004F3AB7 /* CountryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryInfo.m; sourceTree = "<group>"; };
+		C3DBEB791EC9C04A004F3AB7 /* CountryInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryInfoManager.h; sourceTree = "<group>"; };
+		C3DBEB7A1EC9C04A004F3AB7 /* CountryInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryInfoManager.m; sourceTree = "<group>"; };
+		C3DBEB7D1EC9C78B004F3AB7 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		C3DBEB811EC9C965004F3AB7 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		FC677109DA2F265EC0821404 /* Pods_CanadaInfoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CanadaInfoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -137,10 +146,12 @@
 		C3A165F31EC9AFEC00A83A5B /* CanadaInfo */ = {
 			isa = PBXGroup;
 			children = (
+				C3DBEB7C1EC9C76A004F3AB7 /* Helper */,
+				C3DBEB701EC9BDBD004F3AB7 /* Controller */,
+				C3DBEB711EC9BDBD004F3AB7 /* Model */,
+				C3DBEB721EC9BDBD004F3AB7 /* View */,
 				C3A165F71EC9AFEC00A83A5B /* AppDelegate.h */,
 				C3A165F81EC9AFEC00A83A5B /* AppDelegate.m */,
-				C3A165FA1EC9AFEC00A83A5B /* ViewController.h */,
-				C3A165FB1EC9AFEC00A83A5B /* ViewController.m */,
 				C3A166001EC9AFEC00A83A5B /* Assets.xcassets */,
 				C3A166051EC9AFEC00A83A5B /* Info.plist */,
 				C3A165F41EC9AFEC00A83A5B /* Supporting Files */,
@@ -172,6 +183,42 @@
 				C3A1661B1EC9AFEC00A83A5B /* Info.plist */,
 			);
 			path = CanadaInfoUITests;
+			sourceTree = "<group>";
+		};
+		C3DBEB701EC9BDBD004F3AB7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C3DBEB731EC9BEFC004F3AB7 /* CountryInformationViewController.h */,
+				C3DBEB741EC9BEFC004F3AB7 /* CountryInformationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C3DBEB711EC9BDBD004F3AB7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3DBEB761EC9BF49004F3AB7 /* CountryInfo.h */,
+				C3DBEB771EC9BF49004F3AB7 /* CountryInfo.m */,
+				C3DBEB791EC9C04A004F3AB7 /* CountryInfoManager.h */,
+				C3DBEB7A1EC9C04A004F3AB7 /* CountryInfoManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C3DBEB721EC9BDBD004F3AB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C3DBEB7C1EC9C76A004F3AB7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C3DBEB7D1EC9C78B004F3AB7 /* Constants.h */,
+				C3DBEB811EC9C965004F3AB7 /* Constants.m */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -452,9 +499,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3A165FC1EC9AFEC00A83A5B /* ViewController.m in Sources */,
+				C3DBEB7B1EC9C04A004F3AB7 /* CountryInfoManager.m in Sources */,
+				C3DBEB781EC9BF49004F3AB7 /* CountryInfo.m in Sources */,
+				C3DBEB751EC9BEFC004F3AB7 /* CountryInformationViewController.m in Sources */,
 				C3A165F91EC9AFEC00A83A5B /* AppDelegate.m in Sources */,
 				C3A165F61EC9AFEC00A83A5B /* main.m in Sources */,
+				C3DBEB821EC9C965004F3AB7 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +635,7 @@
 			baseConfigurationReference = A695EB33E3BED777D7095963 /* Pods-CanadaInfo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = CanadaInfo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Telstra.CanadaInfo;
@@ -597,6 +648,7 @@
 			baseConfigurationReference = 776BE8C0A928C3B61F63B402 /* Pods-CanadaInfo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = CanadaInfo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Telstra.CanadaInfo;

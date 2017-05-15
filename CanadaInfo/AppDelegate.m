@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "CountryInfoManager.h"
+#import "CountryInformationViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    CountryInfoManager * countryManager = [[CountryInfoManager alloc] init];
+    [countryManager getCountryInformation];
+    
+//    CountryInformationViewController *countryInfoViewController = [[CountryInformationViewController alloc]init];
+//    UINavigationController *navigationController = [[UINavigationController alloc]initWithRootViewController:countryInfoViewController];
+//    self.window.rootViewController = navigationController;
+//    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
