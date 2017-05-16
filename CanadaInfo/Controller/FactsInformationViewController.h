@@ -1,5 +1,5 @@
 //
-//  CountryInformationViewController.h
+//  FactsInformationViewController
 //  CanadaInfo
 //
 //  Created by mac_admin on 15/05/17.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CountryInformationViewController : UIViewController
+@interface FactsInformationViewController : UIViewController
 
 @end

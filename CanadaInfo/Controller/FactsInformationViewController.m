@@ -6,13 +6,13 @@
 //  Copyright © 2017 mac_admin. All rights reserved.
 //
 
-#import "CountryInformationViewController.h"
+#import "FactsInformationViewController.h"
 
-@interface CountryInformationViewController ()
+@interface FactsInformationViewController ()
 
 @end
 
-@implementation CountryInformationViewController
+@implementation FactsInformationViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -1,5 +1,5 @@
 //
-//  CountryInfo.h
+//  FactsInfo.h
 //  CanadaInfo
 //
 //  Created by mac_admin on 15/05/17.
@@ -7,8 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <ObjectMapper/ObjectMapper-Swift.h>
+#import <JSONModel/JSONModel.h>
 
-@interface CountryInfo :
+@interface FactsInfo : JSONModel
+
+@property(nonatomic) NSString * title;
+@property(nonatomic) NSString * description;
+@property(nonatomic) NSString * imageURL;
 
 @end

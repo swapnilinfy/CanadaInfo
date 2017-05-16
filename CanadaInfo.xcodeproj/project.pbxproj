@@ -15,7 +15,7 @@
 		C3A166011EC9AFEC00A83A5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3A166001EC9AFEC00A83A5B /* Assets.xcassets */; };
 		C3A1660F1EC9AFEC00A83A5B /* CanadaInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A1660E1EC9AFEC00A83A5B /* CanadaInfoTests.m */; };
 		C3A1661A1EC9AFEC00A83A5B /* CanadaInfoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A166191EC9AFEC00A83A5B /* CanadaInfoUITests.m */; };
-		C3DBEB751EC9BEFC004F3AB7 /* CountryInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEB741EC9BEFC004F3AB7 /* CountryInformationViewController.m */; };
+		C3DBEB751EC9BEFC004F3AB7 /* FactsInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEB741EC9BEFC004F3AB7 /* FactsInformationViewController.m */; };
 		C3DBEB781EC9BF49004F3AB7 /* CountryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEB771EC9BF49004F3AB7 /* CountryInfo.m */; };
 		C3DBEB7B1EC9C04A004F3AB7 /* CountryInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEB7A1EC9C04A004F3AB7 /* CountryInfoManager.m */; };
 		C3DBEB821EC9C965004F3AB7 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DBEB811EC9C965004F3AB7 /* Constants.m */; };
@@ -59,8 +59,8 @@
 		C3A166151EC9AFEC00A83A5B /* CanadaInfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanadaInfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3A166191EC9AFEC00A83A5B /* CanadaInfoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanadaInfoUITests.m; sourceTree = "<group>"; };
 		C3A1661B1EC9AFEC00A83A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3DBEB731EC9BEFC004F3AB7 /* CountryInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryInformationViewController.h; sourceTree = "<group>"; };
-		C3DBEB741EC9BEFC004F3AB7 /* CountryInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryInformationViewController.m; sourceTree = "<group>"; };
+		C3DBEB731EC9BEFC004F3AB7 /* FactsInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactsInformationViewController.h; sourceTree = "<group>"; };
+		C3DBEB741EC9BEFC004F3AB7 /* FactsInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactsInformationViewController.m; sourceTree = "<group>"; };
 		C3DBEB761EC9BF49004F3AB7 /* CountryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryInfo.h; sourceTree = "<group>"; };
 		C3DBEB771EC9BF49004F3AB7 /* CountryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryInfo.m; sourceTree = "<group>"; };
 		C3DBEB791EC9C04A004F3AB7 /* CountryInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryInfoManager.h; sourceTree = "<group>"; };
@@ -127,9 +127,9 @@
 				C3A165F31EC9AFEC00A83A5B /* CanadaInfo */,
 				C3A1660D1EC9AFEC00A83A5B /* CanadaInfoTests */,
 				C3A166181EC9AFEC00A83A5B /* CanadaInfoUITests */,
-				C3A165F21EC9AFEC00A83A5B /* Products */,
-				BBB7AA684B746E24162EBE09 /* Pods */,
 				ADDFA68620B08450ADA155D9 /* Frameworks */,
+				BBB7AA684B746E24162EBE09 /* Pods */,
+				C3A165F21EC9AFEC00A83A5B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -188,8 +188,8 @@
 		C3DBEB701EC9BDBD004F3AB7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C3DBEB731EC9BEFC004F3AB7 /* CountryInformationViewController.h */,
-				C3DBEB741EC9BEFC004F3AB7 /* CountryInformationViewController.m */,
+				C3DBEB731EC9BEFC004F3AB7 /* FactsInformationViewController.h */,
+				C3DBEB741EC9BEFC004F3AB7 /* FactsInformationViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -501,7 +501,7 @@
 			files = (
 				C3DBEB7B1EC9C04A004F3AB7 /* CountryInfoManager.m in Sources */,
 				C3DBEB781EC9BF49004F3AB7 /* CountryInfo.m in Sources */,
-				C3DBEB751EC9BEFC004F3AB7 /* CountryInformationViewController.m in Sources */,
+				C3DBEB751EC9BEFC004F3AB7 /* FactsInformationViewController.m in Sources */,
 				C3A165F91EC9AFEC00A83A5B /* AppDelegate.m in Sources */,
 				C3A165F61EC9AFEC00A83A5B /* main.m in Sources */,
 				C3DBEB821EC9C965004F3AB7 /* Constants.m in Sources */,
